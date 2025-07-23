@@ -34,8 +34,8 @@ jobs:
       - name: Docker Login
         uses: docker/login-action@v3.1.0
         with:
-          username: ${{ secrets.DOCKERHUB_USR }}
-          password: ${{ secrets.DOCKERHUB_PWD }}
+          username: ${{ secrets.estefanio.gomes@gmail.com }}
+          password: ${{ secrets.Jiwruddazma5 }}
         
       - name: Docker build 
         uses: docker/build-push-action@v5.3.0
