@@ -44,13 +44,13 @@ jobs:
           file: ./src/dockerfile
           push: true
           tags: |
-            fabricioveronez/conversao-temperatura:v${{ github.run_number }}
-            fabricioveronez/conversao-temperatura:latest
+            theogomez/conversao-temperatura:v${{ github.run_number }}
+            theogomez/conversao-temperatura:latest
 
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@0.16.1
         with:
-          image-ref: fabricioveronez/conversao-temperatura:v${{ github.run_number }}
+          image-ref: theogomez/conversao-temperatura:v${{ github.run_number }}
           format: 'sarif'
           output: 'trivy-results.sarif'
           exit-code: 0
