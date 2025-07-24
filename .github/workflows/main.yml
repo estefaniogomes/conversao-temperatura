@@ -49,7 +49,7 @@ jobs:
           file: src/dockerfile
           push: true
           tags: |
-            estefaniogomes/conversao-temperatura:${{github.run.number}}
+            estefaniogomes/conversao-temperatura:${{github.run_number}}
             estefaniogomes/conversao-temperatura:latest
 
 
