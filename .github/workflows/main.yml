@@ -49,8 +49,8 @@ jobs:
           file: src/dockerfile
           push: true
           tags: |
-            theogomez/conversao-temperatura:v1
-            theogomez/conversao-temperatura:latest
+            estefaniogomes/conversao-temperatura:v1
+            estefaniogomes/conversao-temperatura:latest
 
 
 
